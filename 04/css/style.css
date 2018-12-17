@@ -1,0 +1,97 @@
+html, body {
+    margin: 0px;
+    background: grey;
+    width: 100%;
+    height: 100%;
+}
+
+.dice-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+    .dice {
+        width: 100px;
+        height: 100px;
+        background: #fff;
+        border-radius: 5px;
+        margin: 0px 20px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+        .dot-row {
+            width: 100%;
+            height: 20px;
+            display: flex;
+        }
+
+            .dot {
+                width: 20px;
+                height: 20px;
+                background: #000;
+                border-radius: 50%;
+            }
+
+            .dot-row.dot-right-top {
+                justify-content: flex-end;
+            }
+
+            .dot-row.dot-left-bottom {
+                justify-content: flex-start;
+            }
+
+            .dot-row.dot-center {
+                justify-content: center;
+            }
+
+
+/* 
+    SINGLE NUMBERED DICE STYLE
+*/
+
+
+.dice.one {
+    align-items: center;
+    justify-content: center;
+}
+
+.dice.two {
+    align-content: space-between;
+}
+
+.dice.three {
+    align-content: space-between;
+}
+
+.dice.four {
+    align-content: space-between;
+}
+    .dice.four .dot-row {
+        justify-content: space-between;
+    }
+
+.dice.five {
+    align-content: space-between;
+}
+
+    .dice.five .dot-row {
+        justify-content: space-between;
+    }
+
+    .dice.five .dot-row.dot-center {
+        justify-content: center;
+    }
+
+.dice.six {
+    align-content: space-between;
+}
+
+    .dice.six .dot-row {
+        justify-content: space-between;
+    }
