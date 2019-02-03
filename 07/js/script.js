@@ -92,3 +92,49 @@ button.addEventListener("click", function() {
 // Бонус
 
 // Ако успеете во листа, префрлете ја и во табела со тоа што, во thead ќе пишува име на филм (како наслов) а под него самото име на филмот.
+
+
+//************************************************************************************************* */
+
+
+function listOfMovies(){
+    var listData = ['Fight Club', 'The Lord of the Rings', 'The Matrix', 'Interstellar', 'The Departed'];
+
+
+var listContainer = document.createElement('div');
+
+    document.getElementsByTagName('body')[0].appendChild(listContainer);
+
+var listElement = document.createElement('ul');
+
+    listContainer.appendChild(listElement);
+
+var numberOfListItems = listData.length;
+    for (var i = 0; i < numberOfListItems; ++i) {
+        var listItem = document.createElement('li');
+        
+        listItem.innerHTML = listData[i];
+        listElement.appendChild(listItem);
+    }
+}
+
+listOfMovies()
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
