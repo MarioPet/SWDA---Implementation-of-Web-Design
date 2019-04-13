@@ -1,0 +1,264 @@
+body {
+    margin:0px;
+    padding:0px;
+    background-color: brown;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width:100%;
+    height:100vh;
+    background-image: url('./imgsemos/Semos.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width:100%;
+    height:100px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.logo {
+    width:285px;
+    height:55px;
+    background-image: url('./imgsemos/Logo-final-GWD-vektor-KIR.png');
+    margin-top:30px;
+    margin-left: 50px;
+}
+
+.main-nav {
+    width:450px;
+    height:55px;
+    background-color:transparent;
+    margin-top:30px;
+    margin-right:50px;    
+}
+
+.main-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav ul li{
+    display: inline;
+    color:#40223E;
+    font-size:15px;
+    font-weight: bold;
+    margin:20px 0 0 0;
+}
+
+hr {
+    width:1px;
+    height: 30px;
+    border:none;
+    background-color:#40223E;
+    display:inline-block;
+    
+}
+
+.main-nav ul li a{
+    list-style-type: none;
+    text-decoration-line: none;
+}
+
+.main-nav ul li a:hover{
+    color:white;
+    cursor:pointer;   
+}
+
+.title {
+    width:100%;
+    height:300px;
+    background-color:transparent;
+}
+
+.title h1{
+    font-weight:bold;
+    color:#40223E;
+    margin-top:80px;
+    margin-left:70px;
+}
+
+.title h3 {
+    margin-left:70px;
+    color:#A75A69;
+}
+
+.sections {
+    width:100%;
+    height:300px;
+    background-color:transparent;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.web {
+    width: 350px;
+    height: 250px;
+    background-color: grey;
+    margin-left:70px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    background-color: rgba(64,34,62,0.1);
+    background: linear-gradient(rgba(64,34,62,0.4), #40223E), url("./imgsemos/aditya-chinchure-1209854-unsplash.png") no-repeat;
+    background-size: 100%;
+}
+
+.greenline{
+    width:100%;
+    height:15px;
+    background-color: #47B39C;
+}
+
+.web h3{
+    color:white;
+    font-size:15px;
+    margin-top:20px;
+    margin-left:25px;
+}
+
+.web h1{
+    color:white;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+.btngreen{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:none;
+    margin-top:45px;
+    margin-left:20px;
+    overflow: hidden;
+    position: center;
+}
+
+.btngreen img{ 
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.btngreen:hover{
+    background-color:black;
+    cursor:pointer;
+}
+
+
+.graphic {
+    width: 350px;
+    height: 250px;
+    background-color: grey;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    background-color: rgba(64,34,62,0.1);
+    background: linear-gradient(rgba(64,34,62,0.4), #40223E), url("./imgsemos/kelly-sikkema-291518-unsplash.png") no-repeat;
+    background-size: 100%;
+}
+
+
+.orangeline{
+    width:100%;
+    height:15px;
+    background-color: #DF6651;
+}
+
+.graphic h3{
+    color:white;
+    font-size:15px;
+    margin-top:20px;
+    margin-left:25px;
+}
+
+.graphic h1{
+    color:white;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+.btnorange {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-image: url('./imgsemos/Group\ 151.png');
+    background-position: center;
+    background-repeat:no-repeat; 
+    border:none;
+    margin-top:5px;
+    margin-left:20px;
+}
+
+.graphic .btnorange:hover{
+    color: #40223E;
+    cursor: pointer;
+}
+
+
+.oop {
+    width: 350px;
+    height: 250px;
+    background-color: grey;
+    margin-right:50px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    background-color: rgba(64,34,62,0.1);
+    background: linear-gradient(rgba(64,34,62,0.4), #40223E), url("./imgsemos/perry-grone-732606-unsplash.png") no-repeat;
+    background-size: 100%;
+}
+
+.yellowline{
+    width:100%;
+    height:15px;
+    background-color:#F6B94F;
+}
+
+.oop h3{
+    color:white;
+    font-size:15px;
+    margin-top:20px;
+    margin-left:25px;
+}
+
+.oop h1{
+    color:white;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+.btnyellow{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-image: url('./imgsemos/Group\ 152.png');
+    background-position: center;
+    background-repeat:no-repeat; 
+    border:none;
+    margin-top:45px;
+    margin-left:20px;
+}
+
+.oop .btnyellow:hover{
+    color: #40223E;
+    cursor: pointer;
+}
